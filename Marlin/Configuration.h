@@ -1668,8 +1668,8 @@
 //#define PROBE_OFFSET_XMAX  50   // (mm)
 //#define PROBE_OFFSET_YMIN -50   // (mm)
 //#define PROBE_OFFSET_YMAX  50   // (mm)
-#define Z_PROBE_OFFSET_RANGE_MIN -20    //TODO: Fw-Mod | Default: '-2.5'
-#define Z_PROBE_OFFSET_RANGE_MAX 20     //TODO: Fw-Mod | Default: '2.5'
+#define PROBE_OFFSET_Z_MIN -20    //TODO: Fw-Mod | Default: '-2.5'
+#define PROBE_OFFSET_Z_MAX 20     //TODO: Fw-Mod | Default: '2.5'
 
 // Enable the M48 repeatability test to test probe accuracy
 #define Z_MIN_PROBE_REPEATABILITY_TEST   //TODO:Fw-Mod
